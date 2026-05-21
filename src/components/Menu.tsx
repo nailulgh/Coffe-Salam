@@ -13,7 +13,7 @@ const menuItems = [
   { id: 4, name: "Rose Pistachio Latte", category: "Lattes", price: "$7.00", rating: 5.0, image: "https://signatureconcoctions.com/wp-content/uploads/2024/12/IMG_9110-scaled.jpeg" },
   { id: 5, name: "Ceremonial Matcha", category: "Matcha", price: "$7.50", rating: 4.8, image: "https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?auto=format&fit=crop&q=80&w=600" },
   { id: 6, name: "Kunafa Cheesecake", category: "Desserts", price: "$8.50", rating: 4.9, image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&q=80&w=600" },
-  { id: 7, name: "Baklava Trio", category: "Middle Eastern", price: "$9.00", rating: 5.0, image: "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?auto=format&fit=crop&q=80&w=600" },
+  { id: 7, name: "Baklava Trio", category: "Middle Eastern", price: "$9.00", rating: 5.0, image: "https://thumbs.dreamstime.com/b/three-pieces-baklava-lie-fancy-plate-sweet-pastry-dessert-has-pistachios-topping-middle-east-sweets-oriental-style-three-413288494.jpg" },
   { id: 8, name: "Cardamom Dates", category: "Middle Eastern", price: "$5.00", rating: 4.7, image: "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&q=80&w=600" },
 ];
 
