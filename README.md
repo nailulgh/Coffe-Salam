@@ -3,7 +3,7 @@
 <br />
 
 <!-- LOGO / BANNER -->
-<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&size=38&duration=3000&pause=1000&color=C5A059&center=true&vCenter=true&width=600&lines=☕+Salam+Cafe;Where+Coffee+Meets+Serenity" alt="Salam Cafe Typing SVG" />
+<img src="./public/icon.svg" alt="Salam Cafe Typing SVG" />
 
 <br />
 

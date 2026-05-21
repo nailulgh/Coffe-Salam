@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 const galleryImages = [
   { id: 1, src: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=800", alt: "Cafe Interior", size: "col-span-1 row-span-2 md:col-span-2 md:row-span-2" },
   { id: 2, src: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=600", alt: "Coffee Brewing", size: "col-span-1 row-span-1 md:col-span-1 md:row-span-1" },
-  { id: 3, src: "https://images.unsplash.com/photo-1501339817309-1147e4eb112f?auto=format&fit=crop&q=80&w=600", alt: "Live Music", size: "col-span-1 row-span-1 md:col-span-1 md:row-span-1" },
-  { id: 4, src: "https://images.unsplash.com/photo-1525610553991-56e111536531?auto=format&fit=crop&q=80&w=800", alt: "Outdoor Seating", size: "col-span-1 row-span-1 md:col-span-2 md:row-span-1" },
+  { id: 3, src: "https://images.unsplash.com/photo-1511192336575-5a79af67a629?auto=format&fit=crop&q=80&w=600", alt: "Live Music", size: "col-span-1 row-span-1 md:col-span-1 md:row-span-1" },
+  { id: 4, src: "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&q=80&w=800", alt: "Outdoor Seating", size: "col-span-1 row-span-1 md:col-span-2 md:row-span-1" },
   { id: 5, src: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80&w=600", alt: "Islamic Aesthetic Details", size: "col-span-1 row-span-1 md:col-span-1 md:row-span-2" },
-  { id: 6, src: "https://images.unsplash.com/photo-1507133750076-4be9df174f88?auto=format&fit=crop&q=80&w=600", alt: "Friends hanging out", size: "col-span-1 row-span-1 md:col-span-1 md:row-span-1" },
+  { id: 6, src: "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&q=80&w=600", alt: "Friends hanging out", size: "col-span-1 row-span-1 md:col-span-1 md:row-span-1" },
 ];
 
 export function Gallery() {

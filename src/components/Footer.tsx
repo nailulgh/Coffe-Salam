@@ -1,4 +1,5 @@
-import { Coffee, MapPin, Phone, Mail, MessageCircle } from "lucide-react";
+import { MapPin, Phone, Mail, MessageCircle } from "lucide-react";
+import { Logo } from "@/components/Logo";
 
 export function Footer() {
   return (
@@ -8,7 +9,7 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <Coffee className="h-8 w-8 text-primary" />
+              <Logo className="h-10 w-10 text-primary" />
               <span className="font-heading text-2xl font-bold text-foreground">
                 Salam
               </span>

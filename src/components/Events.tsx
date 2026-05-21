@@ -11,7 +11,7 @@ const events = [
     time: "7:00 PM - 10:00 PM",
     category: "Live Music",
     description: "Unwind your week with soulful acoustic performances and spoken word poetry in our ambient setting.",
-    image: "https://images.unsplash.com/photo-1516280440502-65f53282b85e?auto=format&fit=crop&q=80&w=600"
+    image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=600"
   },
   {
     id: 2,

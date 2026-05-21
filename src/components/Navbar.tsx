@@ -3,8 +3,9 @@
 import * as React from "react";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Coffee } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { Logo } from "@/components/Logo";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -42,7 +43,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
-            <Coffee className="h-8 w-8 text-primary" />
+            <Logo className="h-10 w-10 text-primary" />
             <span className="font-heading text-2xl font-bold tracking-tight text-foreground">
               Salam
             </span>
