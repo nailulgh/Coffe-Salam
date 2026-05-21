@@ -3,7 +3,7 @@
 <br />
 
 <!-- LOGO / BANNER -->
-<img src="https://raw.githubusercontent.com/nailulgh/Coffe-Salam/50592d78fea4ee36a019969db907ba94266aba24/public/icon.svg" alt="Salam Cafe Typing SVG" />
+<img src="https://raw.githubusercontent.com/nailulgh/Coffe-Salam/d328d9d94cb52f0dc46af8a3b8a29ecce6646c61/src/app/icon.svg" alt="Salam Cafe Typing SVG" />
 
 <br />
 
