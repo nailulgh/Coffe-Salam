@@ -5,59 +5,66 @@ export function Logo({ className, ...props }: React.SVGProps<SVGSVGElement>) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 100 100"
+      fill="none"
       className={className}
       {...props}
     >
       {/* 8-Pointed Star (Rub el Hizb) faint background */}
-      <g stroke="currentColor" strokeWidth="1.5" fill="none" opacity="0.15">
-        <rect x="25" y="25" width="50" height="50" />
-        <rect x="25" y="25" width="50" height="50" transform="rotate(45 50 50)" />
+      <g stroke="currentColor" strokeWidth="1" fill="none" opacity="0.2">
+        <rect x="25" y="25" width="50" height="50" rx="2" />
+        <rect x="25" y="25" width="50" height="50" rx="2" transform="rotate(45 50 50)" />
       </g>
 
-      {/* Elegant Crescent Moon */}
+      {/* Elegant minimalist coffee cup body */}
       <path
-        d="M 65 15 C 35 15 15 40 25 70 C 32 88 50 95 65 90 C 42 85 28 65 35 42 C 40 28 50 20 65 15 Z"
+        d="M 35 48 C 35 63, 40 70, 50 70 C 60 70, 65 63, 65 48 Z"
         fill="currentColor"
+        opacity="0.15"
+      />
+      <path
+        d="M 35 48 C 35 63, 40 70, 50 70 C 60 70, 65 63, 65 48"
+        stroke="currentColor"
+        strokeWidth="3"
+        strokeLinecap="round"
       />
       
-      {/* Minimalist Coffee Cup */}
+      {/* Cup handle forming a crescent moon shape */}
       <path
-        d="M 38 45 L 68 45 C 68 45 70 70 53 70 C 36 70 38 45 38 45 Z"
+        d="M 64 51 C 70 51, 74 54, 74 59 C 74 64, 70 67, 64 67"
         fill="none"
         stroke="currentColor"
-        strokeWidth="4"
-        strokeLinejoin="round"
+        strokeWidth="2.5"
+        strokeLinecap="round"
       />
       
-      {/* Cup Handle */}
+      {/* Saucer */}
       <path
-        d="M 67 50 C 75 50 78 55 78 60 C 78 65 73 66 65 65"
-        fill="none"
+        d="M 30 76 L 70 76"
         stroke="currentColor"
         strokeWidth="3"
         strokeLinecap="round"
       />
 
-      {/* Stylized Steam (Arabic calligraphy inspired) */}
+      {/* Steam lines that double as elegant calligraphy waves */}
       <path
-        d="M 48 35 C 45 25 55 25 50 15"
+        d="M 45 38 C 43 30, 49 28, 46 20"
         fill="none"
         stroke="currentColor"
-        strokeWidth="3"
+        strokeWidth="2.5"
         strokeLinecap="round"
       />
       <path
-        d="M 58 38 C 55 30 62 28 58 20"
+        d="M 54 41 C 52 33, 58 31, 55 23"
         fill="none"
         stroke="currentColor"
-        strokeWidth="3"
+        strokeWidth="2.5"
         strokeLinecap="round"
       />
 
-      {/* Small Star in the sky */}
-      <polygon 
-        points="75,25 76.5,29 81,29.5 77.5,32.5 78.5,37 75,34.5 71.5,37 72.5,32.5 69,29.5 73.5,29" 
-        fill="currentColor" 
+      {/* A single minimalist star in the sky */}
+      <path
+        d="M 72 24 L 73.5 28 L 77.5 28 L 74 30.5 L 75.5 34.5 L 72 32 L 68.5 34.5 L 70 30.5 L 66.5 28 L 70.5 28 Z"
+        fill="currentColor"
       />
     </svg>
   );
