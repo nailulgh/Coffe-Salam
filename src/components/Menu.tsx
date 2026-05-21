@@ -10,7 +10,7 @@ const menuItems = [
   { id: 1, name: "Salam Signature Blend", category: "Arabica Coffee", price: "$6.50", rating: 4.9, image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=600" },
   { id: 2, name: "Ethiopian Yirgacheffe", category: "Arabica Coffee", price: "$5.50", rating: 4.8, image: "https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&q=80&w=600" },
   { id: 3, name: "Spanish Latte", category: "Lattes", price: "$6.00", rating: 4.9, image: "https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&q=80&w=600" },
-  { id: 4, name: "Rose Pistachio Latte", category: "Lattes", price: "$7.00", rating: 5.0, image: "https://images.unsplash.com/photo-1570968915860-54d5c301fc9f?auto=format&fit=crop&q=80&w=600" },
+  { id: 4, name: "Rose Pistachio Latte", category: "Lattes", price: "$7.00", rating: 5.0, image: "https://signatureconcoctions.com/wp-content/uploads/2024/12/IMG_9110-scaled.jpeg" },
   { id: 5, name: "Ceremonial Matcha", category: "Matcha", price: "$7.50", rating: 4.8, image: "https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?auto=format&fit=crop&q=80&w=600" },
   { id: 6, name: "Kunafa Cheesecake", category: "Desserts", price: "$8.50", rating: 4.9, image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&q=80&w=600" },
   { id: 7, name: "Baklava Trio", category: "Middle Eastern", price: "$9.00", rating: 5.0, image: "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?auto=format&fit=crop&q=80&w=600" },
@@ -20,8 +20,8 @@ const menuItems = [
 export function Menu() {
   const [activeCategory, setActiveCategory] = useState("All");
 
-  const filteredMenu = activeCategory === "All" 
-    ? menuItems 
+  const filteredMenu = activeCategory === "All"
+    ? menuItems
     : menuItems.filter(item => item.category === activeCategory);
 
   return (
@@ -47,7 +47,7 @@ export function Menu() {
         </div>
 
         {/* Filter Categories */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -57,11 +57,10 @@ export function Menu() {
             <button
               key={category}
               onClick={() => setActiveCategory(category)}
-              className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                activeCategory === category
-                  ? "bg-primary text-primary-foreground shadow-md"
-                  : "bg-background text-foreground hover:bg-primary/10"
-              }`}
+              className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${activeCategory === category
+                ? "bg-primary text-primary-foreground shadow-md"
+                : "bg-background text-foreground hover:bg-primary/10"
+                }`}
             >
               {category}
             </button>
@@ -69,7 +68,7 @@ export function Menu() {
         </motion.div>
 
         {/* Menu Grid */}
-        <motion.div 
+        <motion.div
           layout
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
         >
